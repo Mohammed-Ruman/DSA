@@ -15,6 +15,9 @@ public class BinarySearchTreeMain {
         binarySearchTree.preOrderTraversal(binarySearchTree.root);
         System.out.println();
         binarySearchTree.searcH(600);
-
+        System.out.println();
+        binarySearchTree.deleteNode(binarySearchTree.root, 60);
+        
+        binarySearchTree.preOrderTraversal(binarySearchTree.root);
     }
 }
